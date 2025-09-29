@@ -26,7 +26,6 @@ A modern, responsive React.js web application for **Brew Haven**, a café/coffee
 - **React Context API** for global cart state.  
 - **Mock Authentication** using localStorage/session.  
 - **Responsive Grids** for menu layouts.  
-- **Smooth Animations** with Framer Motion.  
 
 ### 🎨 Design Guidelines  
 - Warm café-style theme: **Brown, Cream, Dark Green**.  
@@ -36,8 +35,7 @@ A modern, responsive React.js web application for **Brew Haven**, a café/coffee
 ### ✨ Optional Enhancements  
 - Search bar & category filter on menu.  
 - Dark/Light theme toggle.  
-- Order history in Account page.  
-- Newsletter subscription form in footer.  
+- Order history in Account page.   
 
 ---
 
@@ -78,10 +76,10 @@ brew-haven/
 ## 🛠️ Tech Stack  
 
 - **Frontend**: React.js (Vite), React Router DOM  
-- **Styling**: Tailwind CSS, Framer Motion  
+- **Styling**: Tailwind CSS
 - **State Management**: React Context API  
 - **Authentication**: Mock (localStorage)  
-- **Icons**: Lucide React / Heroicons  
+- **Icons**: Lucide React  
 
 ---
 
@@ -89,13 +87,14 @@ brew-haven/
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/brew-haven.git
-   cd brew-haven
+   git clone https://github.com/Shaan-d21/Brew-Haven-Modern-React-Cafe-Website.git
+   cd brew-haven-modern-react-cafe-website
    ```
 
 2. Install dependencies:  
    ```bash
    npm install
+   npm add react-router-dom@latest lucide-react@latest
    ```
 
 3. Start development server:  
@@ -103,7 +102,7 @@ brew-haven/
    npm run dev
    ```
 
-4. Open your browser at **http://localhost:5173/** (if using Vite).  
+4. Open your browser at **http://localhost:5173/** .  
 
 ---
 
@@ -117,7 +116,7 @@ Coffee menu data is stored in **`src/data/coffeeData.json`** to simulate a backe
 
 - **Mock authentication** with localStorage/session.  
 - Signup/Login functionality only simulates real backend.  
-- Future enhancement: integrate Firebase/Auth0.  
+- Future enhancement: Backend for this project.  
 
 ---
 
@@ -128,12 +127,9 @@ Feel free to fork the repo and submit a PR.
 
 ---
 
-## 📜 License  
+## 📸 Screenshots 
 
-This project is licensed under the **MIT License**.  
-
----
-
-## 📸 Screenshots (Optional)  
-
-_Add UI screenshots here once the app is running._  
+![Home Page](image.png)
+![Menue](image-1.png)
+![Cart](image-2.png)
+![Login & Signup](image-3.png)
