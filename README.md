@@ -129,7 +129,7 @@ Feel free to fork the repo and submit a PR.
 
 ## 📸 Screenshots 
 
-![Home Page](image.png)
-![Menue](image-1.png)
-![Cart](image-2.png)
-![Login & Signup](image-3.png)
+![Home Page](/images/image.png)
+![Menue](/images/image-1.png)
+![Cart](/images/image-2.png)
+![Login & Signup](/images/image-3.png)
